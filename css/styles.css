@@ -58,6 +58,10 @@ body {
     width: 22%;
 }
 
+.column-md {
+    width: 48%;
+}
+
 h1.heading-title {
     color: var(--dark);
     font-size: 4rem; /* 64px */
@@ -102,9 +106,15 @@ img.logo {
     width: 25%;
 }
 
+/* LOCATIONS SECTION */
+.locations-section-container {
+    padding: var(--md-size);
+    background-color: var(--secondary);
+}
+
 footer {
     background-color: var(--primary);
-    height: 7.5rem;
+    min-height: 7.5rem;
 
     /* position: fixed;
     bottom: 0; */
